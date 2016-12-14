@@ -3,29 +3,54 @@
 {% block content %}
 <div class="jumbotron">
     <h1>Vincent Primault <small>vincent [dot] primault [at] insa-lyon.fr</small></h1>
-        
-    <p>I am a PhD student (October 2013 – now) at <a href="http://www.insa-lyon.fr/en/">INSA Lyon</a> (France), working in the <a href="https://liris.cnrs.fr/front-page-en?set_language=en">LIRIS lab</a> in the <a href="http://liris.cnrs.fr/drim/">DRIM research team</a>. I am supported by the <a href="http://imu.universite-lyon.fr/">LABEX IMU</a> under the <a href="http://liris.cnrs.fr/privamov/project/">Priva'Mov project</a>. My current research interests are privacy preservation, location privacy, spatio-temporal databases and distributed systems.</p>
+
+    <p>
+      I am a PhD student (October 2013 – now) at <a href="http://www.insa-lyon.fr/en/">INSA Lyon</a> (France),
+      working in the <a href="https://liris.cnrs.fr/front-page-en?set_language=en">LIRIS lab</a> in the <a href="http://liris.cnrs.fr/drim/">DRIM research team</a>.
+      My current research interests are privacy preservation, location privacy, spatio-temporal databases and distributed systems.
+    </p>
 </div>
-        
+
 <h2>Education</h2>
 <ul>
     <li><b>2013:</b> Diploma of engineer in computer science from <a href="http://www.insa-lyon.fr/en/">INSA Lyon</a>, giving the Master's Degree, with honors.</li>
     <li><b>2008:</b> <a href="https://en.wikipedia.org/wiki/Baccalaur%C3%A9at">Baccalauréat S</a>, with highest honors.</li>
 	<li><b>Languages:</b> French (native), English (TOEIC 940), German (basic skills, european level B1).</li>
 </ul>
-    
+
 <h2>Experience</h2>
 <ul>
-    <li><b>Since 2013:</b> PhD student in the <a href="https://liris.cnrs.fr/front-page-en?set_language=en">LIRIS lab</a> working on privacy-preserving access to location-based services and privacy-preserving mobility data publication.</li>
-    <li><b>December 2012 – June 2013:</b> internship at the <a href="https://liris.cnrs.fr/front-page-en?set_language=en">LIRIS lab</a>, working on the <a href="https://project.inria.fr/kiss/en/">KISS project</a>. Conception and development of a prototype of an application whose goal is to model data coming for various and heterogeneous data sources, index it and handle a custom query language (Java).</li>
-    <li><b>May – August 2012:</b> internship at Fiducial, working on <a href="http://www.fiducial.fr/">the company main portal</a>. Specification, conception and development of a interface to manage client accounts and activity related to them (eZ Publish, PHP).</li>
-    <li><b>July – August 2011:</b> internship at <a href="http://openclassrooms.com/">OpenClassrooms</a>, a leading french MOOC platform. Preparation, specification, conception and development of a prototype of what should become the future version of the website (Symfony2, PHP).</li>
+    <li><b>September 2016 – now:</b> Lecturer at the <a href="http://www.univ-lyon1.fr/">University of Lyon 1</a> for 1st and 2nd year students.</li>
+    <li><b>October 2013 – now:</b> PhD student in the <a href="https://liris.cnrs.fr/front-page-en?set_language=en">LIRIS lab</a> working on privacy-preserving access to location-based services and privacy-preserving mobility data publication.</li>
+    <li><b>December 2012 – June 2013:</b> Internship at the <a href="https://liris.cnrs.fr/front-page-en?set_language=en">LIRIS lab</a>, working on the <a href="https://project.inria.fr/kiss/en/">KISS project</a>. Conception and development of a prototype of an application whose goal is to model data coming for various and heterogeneous data sources, index it and handle a custom query language (Java).</li>
+    <li><b>May – August 2012:</b> Internship at Fiducial, working on <a href="http://www.fiducial.fr/">the company main portal</a>. Specification, conception and development of a interface to manage client accounts and activity related to them (eZ Publish, PHP).</li>
+    <li><b>July – August 2011:</b> Internship at <a href="http://openclassrooms.com/">OpenClassrooms</a>, a leading french MOOC platform. Preparation, specification, conception and development of a prototype of what should become the future version of the website (Symfony2, PHP).</li>
 </ul>
 
-<h2>Publications</h2>
+<h2>Selected publications</h2>
 <ul>
-{% for pub in publications %}
-    <li>{{ pub.citationFull_s|raw }}</li>
-{% endfor %}
-</ul>
+  <li>
+    Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Lionel Brunie.
+    Adaptive Location Privacy with ALP.
+    In Procedings of the 35th Symposium on Reliable Distributed Systems, Sep 2016, Budapest, Hungary.
+    <a href="https://hal.archives-ouvertes.fr/hal-01370447">&lt;hal-01370447&gt;</a>
+  </li>
+  <li>
+    Vincent Primault, Sonia Ben Mokhtar, Cédric Lauradoux, Lionel Brunie.
+    Time Distortion Anonymization for the Publication of Mobility Data with High Utility.
+    In Proceedings of the 14th IEEE International Conference on Trust, Security and Privacy in Computing and Communications, Aug 2015, Helsinki, Finland.
+    <a href="https://hal.archives-ouvertes.fr/hal-01170060">&lt;hal-01170060&gt;</a>
+  </li>
+  <li>
+    Vincent Primault, Sonia Ben Mokhtar, Lionel Brunie.
+    Privacy-preserving Publication of Mobility Data with High Utility.
+    In Proceedings of the 2015 35th IEEE International Conference on Distributed Computed Systems, Jun 2015, Columbus, Ohio, United States. pp.802-803.
+    <a href="https://hal.archives-ouvertes.fr/hal-01159291">&lt;hal-01159291&gt;</a>
+  </li>
+  <li>
+    Vincent Primault, Sonia Ben Mokhtar, Cédric Lauradoux, Lionel Brunie.
+    Differentially Private Location Privacy in Practice.
+    In Proceedings of the 3rd Workshop on Mobile Security Technologies (MoST) 2014, May 2014, San Jose, United States.
+    <a href="https://hal.archives-ouvertes.fr/hal-01148230">&lt;hal-01148230&gt;</a>
+  </li>
 {% endblock %}

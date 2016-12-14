@@ -9,11 +9,21 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 //Request::setTrustedProxies(array('127.0.0.1'));
 
 $app->get('/', function () use ($app) {
-    $response = json_decode(file_get_contents('https://api.archives-ouvertes.fr/search/?wt=json&q=authIdHal_s:%22vincent-primault%22&sort=conferenceStartDate_s%20desc&fl=citationFull_s,docid,docType_s'), true); //https://api.archives-ouvertes.fr/search/?wt=json&q=authIdHal_s:%22vincent-primault%22&sort=conferenceStartDate_s%20desc&fl=authFullName_s,citationFull_s,conferenceTitle_s,conferenceStartDate_s,files_s,title_s,country_s,city_s,doiId_s,halId_s,docid,docType_s
-    $publications = $response['response']['docs'];
-    return $app['twig']->render('index.html', compact('publications'));
+    return $app['twig']->render('index.html', []);
 })
 ->bind('homepage');
+
+$app->get('/publications', function () use ($app) {
+    $response = json_decode(file_get_contents('https://api.archives-ouvertes.fr/search/?wt=json&q=authIdHal_s:%22vincent-primault%22&sort=conferenceStartDate_s%20desc&fl=citationFull_s,docid,docType_s'), true); //https://api.archives-ouvertes.fr/search/?wt=json&q=authIdHal_s:%22vincent-primault%22&sort=conferenceStartDate_s%20desc&fl=authFullName_s,citationFull_s,conferenceTitle_s,conferenceStartDate_s,files_s,title_s,country_s,city_s,doiId_s,halId_s,docid,docType_s
+    $publications = $response['response']['docs'];
+    return $app['twig']->render('publications.html', compact('publications'));
+})
+->bind('publications');
+
+$app->get('/software', function () use ($app) {
+    return $app['twig']->render('software.html', []);
+})
+->bind('software');
 
 $app->get('/teaching', function () use ($app) {
     return $app['twig']->render('teaching.html', []);
