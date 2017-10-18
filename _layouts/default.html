@@ -1,0 +1,53 @@
+---
+layout: base
+---
+
+<div class="container page">
+  <div class="row">
+    <div class="col-md-9 content">
+      {{ content }}
+    </div>
+    <div class="col-md-3 sidebar">
+      <div class="sidebar-header">
+        <div class="sidebar-picture">
+          <img src="media/me.jpg" alt="Photo" />
+        </div>
+        <div class="sidebar-name">Vincent Primault</div>
+        <div class="sidebar-bio">
+          Researcher in Computer Science<br/>
+          <i>University College London</i>
+        </div>
+      </div>
+      <div class="sidebar-navigation">
+        <div class="list-group">
+          <a href="index.html" class="list-group-item list-group-item-action {% if page.path == 'index.md' %}active{% endif %}">
+            About me
+          </a>
+          <a href="publications.html" class="list-group-item list-group-item-action {% if page.path == 'publications.md' %}active{% endif %}">
+            Publications
+          </a>
+          <a href="teaching.html" class="list-group-item list-group-item-action {% if page.path == 'teaching.md' %}active{% endif %}">
+            Teaching
+          </a>
+          <a href="software.html" class="list-group-item list-group-item-action {% if page.path == 'software.md' %}active{% endif %}">
+            Software
+          </a>
+        </div>
+      </div>
+
+      <div class="sidebar-content">
+        <div class="sidebar-link">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%76%2E%70%72%69%6D%61%75%6C%74%40%75%63%6C%2E%61%63%2E%75%6B">v.primault[at]ucl.ac.uk</a>
+        </div>
+        <div class="sidebar-link">
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <a href="http://dblp.uni-trier.de/pers/hd/p/Primault:Vincent">DBLP</a>
+        </div>
+        <div class="sidebar-link">
+          <i class="fa fa-github" aria-hidden="true"></i>
+          <a href="https://github.com/pvcnt">GitHub</a>
+        </div>
+      </div>
+    </div>
+</div>
