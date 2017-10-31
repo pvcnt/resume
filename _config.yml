@@ -1,7 +1,7 @@
 title: Vincent Primault
 description: >-
   I am Vincent Primault, a researcher in computer science at University College London.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/staff/V.Primault"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 markdown: kramdown

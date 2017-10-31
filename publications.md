@@ -4,11 +4,7 @@ title: Publications
 ---
 
 <div class="publi">
-    Sophie Cerf, Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Robert Birke, et al.. PULP: Achieving Privacy and Utility Trade-off in User Mobility Data. <i>SRDS 2017 - 36th IEEE International Symposium on Reliable Distributed Systems</i>, Sep 2017, Hong Kong, Hong Kong SAR China. 36th IEEE International Symposium on Reliable Distributed Systems, 2017.
-    <a href="https://hal.archives-ouvertes.fr/hal-01578635">&#x3008;hal-01578635&#x3009;</a>
-</div>
-<div class="publi">
-    Sophie Cerf, Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Robert Birke, et al.. PULP: Achieving Privacy and Utility Trade-off in User Mobility Data. <i>SRDS 2017- 36th IEEE International Symposium on Reliable Distributed Systems</i>, Sep 2017, Hong Kong, Hong Kong SAR China.
+    Sophie Cerf, Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Robert Birke, et al. PULP: Achieving Privacy and Utility Trade-off in User Mobility Data. <i>SRDS 2017- 36th IEEE International Symposium on Reliable Distributed Systems</i>, Sep 2017, Hong Kong, Hong Kong SAR China.
     <a href="https://hal.archives-ouvertes.fr/hal-01613585">&#x3008;hal-01613585&#x3009;</a>
 </div>
 <div class="publi">
