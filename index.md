@@ -9,7 +9,15 @@ title: About me
 </h2>
 
 <div class="job">
-  <div class="job-date">2008 - 2013</div>
+  <div class="job-date">2018</div>
+  <div class="job-title">PhD in Computer Science</div>
+  <div class="job-company">
+    <a href="https://www.insa-lyon.fr/en/">INSA Lyon</a>
+  </div>
+</div>
+
+<div class="job">
+  <div class="job-date">2013</div>
   <div class="job-title">Master/Engineering degree in Computer Science</div>
   <div class="job-company">
     <a href="https://www.insa-lyon.fr/en/">INSA Lyon</a>
@@ -27,8 +35,8 @@ title: About me
 </h2>
 
 <div class="job">
-  <div class="job-title">Researcher</div>
-  <div class="job-date">2017 - Present</div>
+  <div class="job-title">Research Associate</div>
+  <div class="job-date">2017 - Present (1 year)</div>
   <div class="job-company">
     <a href="https://ucl.ac.uk">University College London</a>
   </div>
@@ -119,6 +127,12 @@ title: About me
   Selected publications
 </h2>
 
+<div class="publi">
+  Sophie Cerf, Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Robert Birke, Sara Bouchenak, Lydia Chen, Nicolas Marchand, Bogdan Robu.
+  PULP: Achieving Privacy and Utility Trade-off in User Mobility Data.
+  In <i>Proceedings of the 36th Symposium on Reliable Distributed Systems (SRDS)</i>, Sep 2017, Hong Kong.
+  <a href="https://hal.archives-ouvertes.fr/hal-01578635">&lt;hal-01578635&gt;</a>
+</div>
 <div class="publi">
   Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Lionel Brunie.
   Adaptive Location Privacy with ALP.
