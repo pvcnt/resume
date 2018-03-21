@@ -26,7 +26,7 @@ title: About me
 
 <div class="job">
   <div class="job-date">2008</div>
-  <div class="job-title">Baccalauréat S</div>
+  <div class="job-title">Baccalauréat S, with highest honours</div>
 </div>
 
 <h2 style="margin-top: 35px;">
@@ -47,7 +47,7 @@ title: About me
 </div>
 
 <div class="job">
-  <div class="job-title">Lecturer</div>
+  <div class="job-title">Teaching Assistant ("A.T.E.R.")</div>
   <div class="job-date">2016 - 2017 (1 year)</div>
   <div class="job-company">
   <a href="https://www.univ-lyon1.fr/">University Lyon 1</a>
@@ -58,7 +58,7 @@ title: About me
 </div>
 
 <div class="job">
-  <div class="job-title">Researcher</div>
+  <div class="job-title">PhD Researcher</div>
   <div class="job-date">2013 – 2017 (4 years)</div>
   <div class="job-company">
     <a href="https://liris.cnrs.fr/front-page-en?set_language=en">LIRIS</a> /
