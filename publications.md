@@ -4,19 +4,22 @@ title: Publications
 ---
 
 <div class="publi">
+    Vincent Primault, Mohamed Maouche, Antoine Boutet, Sonia Ben Mokhtar, Sara Bouchenak, Lionel Brunie. ACCIO: How to Make Location Privacy Experimentation Open and Easy. <i>ICDCS 2018 - 38th IEEE International Conference on Distributed Computing Systems</i>, Jul 2018, Vienna, Austria [to appear].
+</div>
+<div class="publi">
     Sophie Cerf, Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Robert Birke, et al. PULP: Achieving Privacy and Utility Trade-off in User Mobility Data. <i>SRDS 2017- 36th IEEE International Symposium on Reliable Distributed Systems</i>, Sep 2017, Hong Kong, Hong Kong SAR China.
     <a href="https://hal.archives-ouvertes.fr/hal-01613585">&#x3008;hal-01613585&#x3009;</a>
 </div>
 <div class="publi">
-  Sophie Cerf, Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Sara Bouchenak, et al.. Données de mobilité : protection de la vie privée vs. utilité des données. <i>Conférence francophone d’informatique en parallélisme, architecture et système (ComPAS)</i>, Jun 2017, Sophia Antipolis, France. Proceedings of the Conférence francophone d’informatique en parallélisme, architecture et système (ComPAS).
+  Sophie Cerf, Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Sara Bouchenak, et al. Données de mobilité : protection de la vie privée vs. utilité des données. <i>Conférence francophone d’informatique en parallélisme, architecture et système (ComPAS)</i>, Jun 2017, Sophia Antipolis, France. Proceedings of the Conférence francophone d’informatique en parallélisme, architecture et système (ComPAS).
   <a href="http://hal.univ-grenoble-alpes.fr/hal-01527666">&#x3008;hal-01527666&#x3009;</a>
 </div>
 <div class="publi">
-  Sonia Ben Mokhtar, Antoine Boutet, Louafi Bouzouina, Patrick Bonnel, Olivier Brette, et al.. PRIVA'MOV: Analysing Human Mobility Through Multi-Sensor Datasets. <i>NetMob 2017</i>, Apr 2017, Milan, Italy.
+  Sonia Ben Mokhtar, Antoine Boutet, Louafi Bouzouina, Patrick Bonnel, Olivier Brette, et al. PRIVA'MOV: Analysing Human Mobility Through Multi-Sensor Datasets. <i>NetMob 2017</i>, Apr 2017, Milan, Italy.
   <a href="https://hal.inria.fr/hal-01578557">&#x3008;hal-01578557&#x3009;</a>
 </div>
 <div class="publi">
-  Sophie Cerf, Bogdan Robu, Nicolas Marchand, Antoine Boutet, Vincent Primault, et al.. Toward an Easy Configuration of Location Privacy Protection Mechanisms. <i>ACM/IFIP/USENIX Middleware conference</i>, Dec 2016, Trente, Italy.
+  Sophie Cerf, Bogdan Robu, Nicolas Marchand, Antoine Boutet, Vincent Primault, et al. Toward an Easy Configuration of Location Privacy Protection Mechanisms. <i>ACM/IFIP/USENIX Middleware conference</i>, Dec 2016, Trente, Italy.
   <a href="https://hal.archives-ouvertes.fr/hal-01376640">&#x3008;hal-01376640&#x3009;</a>
 </div>
 <div class="publi">
