@@ -17,6 +17,10 @@ body {
   height: 100%;
 }
 
+h2 {
+  margin-bottom: 1rem;
+}
+
 h2 i.fa {
   margin-right: 10px;
 }
