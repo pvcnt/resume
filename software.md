@@ -14,7 +14,7 @@ Even non-programmers are enabled to launch experiments and analyse their results
 Accio source code is available [on GitHub](https://github.com/privamov/accio), alongside with [its documentation](https://privamov.github.io/accio/).
 
 ## Private Data Donor
-Private Data Donor is a platform to crowd-source Web searches in a privacy-preserving way.
-They allow researchers to then exploit this data, e.g., to predict the spread of infectious diseases.
-It is formed of a server and a Chrome extension.
+Private Data Donor is a platform to crowdsource Web searches in a privacy-preserving way.
+Researchers can then leverage this data, e.g., to predict the spread of infectious diseases.
+It is composed of a server and a Chrome extension.
 The source code is available [on GitHub](https://github.com/pddisense/pdd), while [the project's website](https://ppd.cs.ucl.ac.uk/) provides more information and documentation.
