@@ -128,6 +128,12 @@ title: About me
 </h2>
 
 <div class="publi">
+    Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Lionel Brunie.
+    The Long Road to Computational Location Privacy: A Survey.
+    <i>IEEE Communications Surveys & Tutorials</i>, Oct 2018.
+    <a href="https://hal.archives-ouvertes.fr/hal-01890014">&#x3008;hal-01890014&#x3009;</a>
+</div>
+<div class="publi">
   Sophie Cerf, Vincent Primault, Antoine Boutet, Sonia Ben Mokhtar, Robert Birke, Sara Bouchenak, Lydia Chen, Nicolas Marchand, Bogdan Robu.
   PULP: Achieving Privacy and Utility Trade-off in User Mobility Data.
   In <i>Proceedings of the 36th Symposium on Reliable Distributed Systems (SRDS)</i>, Sep 2017, Hong Kong.
@@ -144,12 +150,6 @@ title: About me
   Time Distortion Anonymization for the Publication of Mobility Data with High Utility.
   In <i>Proceedings of the 14th IEEE International Conference on Trust, Security and Privacy in Computing and Communications (TrustCom)</i>, Aug 2015, Helsinki, Finland.
   <a href="https://hal.archives-ouvertes.fr/hal-01170060">&lt;hal-01170060&gt;</a>
-</div>
-<div class="publi">
-  Vincent Primault, Sonia Ben Mokhtar, Lionel Brunie.
-  Privacy-preserving Publication of Mobility Data with High Utility.
-  In <i>Proceedings of the 2015 35th IEEE International Conference on Distributed Computed Systems (ICDCS)</i>, Jun 2015, Columbus, Ohio, United States. pp.802-803.
-  <a href="https://hal.archives-ouvertes.fr/hal-01159291">&lt;hal-01159291&gt;</a>
 </div>
 <div class="publi">
   Vincent Primault, Sonia Ben Mokhtar, Cédric Lauradoux, Lionel Brunie.
